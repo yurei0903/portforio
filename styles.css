@@ -1,0 +1,68 @@
+/* styles.css */
+
+/* 全体のスタイル */
+body {
+    font-family: 'Arial', sans-serif; /* フォントファミリー */
+    line-height: 1.6; /* 行の高さ */
+    margin: 0; /* デフォルトのマージンをリセット */
+    padding: 0; /* デフォルトのパディングをリセット */
+    background-color: #f4f4f4; /* 背景色 */
+}
+
+/* ヘッダーのスタイル */
+header {
+    background: #333; /* 背景色 */
+    color: #fff; /* 文字色 */
+    padding: 10px 20px; /* パディング */
+}
+
+header nav ul {
+    list-style: none; /* リストスタイルを削除 */
+    padding: 0; /* パディングを削除 */
+}
+
+header nav ul li {
+    display: inline; /* インライン表示 */
+    margin-right: 20px; /* 隙間 */
+}
+
+header nav ul li a {
+    color: #fff; /* 文字色 */
+    text-decoration: none; /* 下線を削除 */
+}
+
+/* メインコンテンツ */
+main {
+    padding: 20px; /* パディング */
+}
+
+/* セクションのスタイル */
+section {
+    background: #fff; /* 背景色 */
+    padding: 15px; /* パディング */
+    border-radius: 5px; /* 角の丸み */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* シャドウ */
+}
+
+/* フッターのスタイル */
+footer {
+    text-align: center; /* 中央揃え */
+    padding: 10px 0; /* パディング */
+    background: #333; /* 背景色 */
+    color: #fff; /* 文字色 */
+}
+
+/* ボタンのスタイル */
+button {
+    background: #007BFF; /* ボタンの背景色 */
+    color: white; /* 文字色 */
+    border: none; /* ボーダーを削除 */
+    padding: 10px 20px; /* パディング */
+    border-radius: 5px; /* 角の丸み */
+    cursor: pointer; /* カーソルを指に */
+    transition: background 0.3s; /* ホバーアニメーション */
+}
+
+button:hover {
+    background: #0056b3; /* ホバー時の背景色 */
+}
