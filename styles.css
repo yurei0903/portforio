@@ -36,7 +36,7 @@ main {
 
 /* セクションのスタイル */
 section {
-    background: #fff; /* 背景色 */
+    background: #f6f7df; /* 背景色 */
     padding: 15px; /* パディング */
     border-radius: 5px; /* 角の丸み */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* シャドウ */
