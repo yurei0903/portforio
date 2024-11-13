@@ -28,7 +28,12 @@ header nav ul li a {
     color: #fff; /* 文字色 */
     text-decoration: none; /* 下線を削除 */
 }
+.header_icon{
 
+    width: 20px;   
+    height: auto;
+    margin-right: 10px; /* パディング */
+}
 
 /* メインコンテンツ */
 main {
