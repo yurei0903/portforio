@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css"> <!-- 外部CSSファイルのリンク -->
     <title>ゆーれいのポートフォリオ</title>
+    
 </head>
 <body>
     <header>
@@ -16,16 +17,26 @@
                 <li><a href="shumi.html"><img class="header_icon" src="image\sogankyo.png">趣味</a></li>
             </ul>
         </nav>
+        <div>
+        <button id="ind_index">index</button><br>
+        <nav id="index_link">
+            <ul>
+                <li><a href="#jikoshokai"><span class="index_moji">自己紹介</span></a></li><br>
+                <li><a href="#uselanguage"><span class="index_moji">使えるプログラミング言語</span></a></li><br>
+                <li><a href="#usetool"><span class="index_moji">使えるツール</span></a></li>
+            </ul>
+        </nav>
+    </div>
     </header>
 
     <main>
         <div style="height: 150px;"></div>
         <h2>ホーム</h2>
         <section id="home">
-            <p class="home_p">自己紹介</p>
+            <p id="jikoshokai"class="home_p">自己紹介</p>
             <div>大阪公立大学工業高等専門学校の2年Iコースです。<br>福祉化学研究会に所属しています。</div>
             
-            <p class="home_p">使えるプログラミング言語</p>
+            <p id="uselanguage" class="home_p">使えるプログラミング言語</p>
             <div class="grid-container">
                 <div id="setumei_py" class="setumei">
                 <img class="icon_logo"src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original-wordmark.svg" />
@@ -58,7 +69,7 @@
             基本的なことができます
         </div>
         </div>
-            <p class="home_p">利用できるソフトウェア</p>
+            <p id="usetool"class="home_p">使えるソフトウェア</p>
             <div class="grid-container">
             <div id="setumei_git" class="setumei">
                 <img class="icon_logo" src="image\Git-Icon-1788C.png">
@@ -85,4 +96,5 @@
     </footer>
 
 </body>
+<script src="JAVASCRIPT\script.js"></script>
 </html>

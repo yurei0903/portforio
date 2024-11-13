@@ -83,6 +83,21 @@ button {
 button:hover {
     background: #0056b3; /* ホバー時の背景色 */
 }
+#ind_index{position: absolute;
+    right: 0; /* 右側まで広げる */
+    padding: 10px 10px; /* パディング */
+    z-index: 999;
+}
+#index_link{position: absolute;
+    right: 0; /* 右側まで広げる */
+    padding: 10px 10px; 
+    display: none;
+    z-index: 999;
+    background-color: #cbc8fe5d;
+}
+.index_moji{
+    color: #000;
+}
 .program_img {
     width: 300px;   /* 幅を300pxに設定 */
     height: auto;   /* 高さを自動調整 */
