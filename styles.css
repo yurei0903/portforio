@@ -4,12 +4,12 @@ body {
     line-height: 1.6; /* 行の高さ */
     margin: 0; /* デフォルトのマージンをリセット */
     padding: 0; /* デフォルトのパディングをリセット */
-    background-color: #f6ffa6; /* 背景色 */
+    background-color: #a6a6ff; /* 背景色 */
 }
 
 /* ヘッダーのスタイル */
 header {
-    background: #1d01ab; /* 背景色 */
+    background: #120263; /* 背景色 */
     color: #fff; /* 文字色 */
     padding: 10px 20px; /* パディング */
 }
@@ -29,6 +29,7 @@ header nav ul li a {
     text-decoration: none; /* 下線を削除 */
 }
 
+
 /* メインコンテンツ */
 main {
     padding: 20px; /* パディング */
@@ -36,7 +37,7 @@ main {
 
 /* セクションのスタイル */
 section {
-    background: #f6f7df; /* 背景色 */
+    background: #dfe0f7; /* 背景色 */
     padding: 15px; /* パディング */
     border-radius: 5px; /* 角の丸み */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* シャドウ */
@@ -67,4 +68,9 @@ button:hover {
 .program_img {
     width: 300px;   /* 幅を300pxに設定 */
     height: auto;   /* 高さを自動調整 */
+}
+.home_p{
+    color: #fff; /* 文字色 */
+    font-size: 30px;
+    background: #012142; 
 }
