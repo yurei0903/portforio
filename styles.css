@@ -12,7 +12,14 @@ header {
     background: #120263; /* 背景色 */
     color: #fff; /* 文字色 */
     padding: 10px 20px; /* パディング */
+    margin: 0; /* デフォルトのマージンをリセット */
+    top: 0; /* 上部に位置 */
+    right: 0; /* 右側まで広げる */
+    left: 0; /* 右側まで広げる */
+    
+    position: fixed;
 }
+
 
 header nav ul {
     list-style: none; /* リストスタイルを削除 */
@@ -38,6 +45,12 @@ header nav ul li a {
 /* メインコンテンツ */
 main {
     padding: 20px; /* パディング */
+}
+.icon_logo{
+    padding: 10px 10px; /* パディング */
+    width: 50px;   
+    height: auto;
+    margin-right: 10px; /* パディング */
 }
 
 /* セクションのスタイル */
@@ -78,4 +91,49 @@ button:hover {
     color: #fff; /* 文字色 */
     font-size: 30px;
     background: #012142; 
+}
+.program_p{
+    color: #fff; /* 文字色 */
+    font-size: 20px;
+    background: #012142; 
+}
+#setumei_py{
+    background-color: #bae4fa;
+}
+.setumei_name{
+    font-size: 30px;
+}
+#setumei_c{
+    background-color: #ebd8fc;
+}
+.setumei{
+    border: solid 1px #454545;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* シャドウ */
+    border-radius: 5px; /* 角の丸み */
+    font-size: 15px;
+    padding: 10px 10px; /* パディング */
+}
+.grid-container {
+    display: grid; /* グリッドコンテナとして設定 */
+    grid-template-columns: repeat(3, 1fr); /* 3列のグリッドを定義 */
+    grid-template-rows: auto; /* 行は自動でサイズを決定 */
+    gap: 10px; /* グリッドアイテム間の隙間 */
+}
+#setumei_hcj{
+    background-color: #f3f7ca;
+}
+#setumei_ard{
+    background-color: #caf7ed;
+}
+#setumei_Scratch{
+    background-color: #f7e9ca;
+}
+#setumei_git{
+    background-color: #ffffff;
+}
+#setumei_makecode{
+    background-color: #d8fcbd;
+}
+#setumei_tool{
+    background-color: #999a99;
 }
