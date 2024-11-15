@@ -8,3 +8,4 @@ index_button_index.addEventListener('click',function(){
     }
     consle.log("A");
 });
+
