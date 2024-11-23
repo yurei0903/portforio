@@ -4,12 +4,12 @@ body {
     line-height: 1.6; /* 行の高さ */
     margin: 0; /* デフォルトのマージンをリセット */
     padding: 0; /* デフォルトのパディングをリセット */
-    background-color: #a6a6ff; /* 背景色 */
+    background-color: #f5f5fc; /* 背景色 */
 }
 
 /* ヘッダーのスタイル */
 header {
-    background: #120263; /* 背景色 */
+    background: #212125; /* 背景色 */
     color: #fff; /* 文字色 */
     padding: 10px 20px; /* パディング */
     margin: 0; /* デフォルトのマージンをリセット */
@@ -20,9 +20,12 @@ header {
     position: sticky;
     display: flex;
     top: 0;
+    z-index: 999;
 }
 
-
+h1{
+    margin-right: 50px;
+}
 header nav ul {
     list-style: none; /* リストスタイルを削除 */
     padding: 0; /* パディングを削除 */
@@ -30,20 +33,30 @@ header nav ul {
 
 header nav ul li {
     display: inline; /* インライン表示 */
-    margin-right: 20px; /* 隙間 */
+    margin-right: 50px; /* 隙間 */
 }
 
 header nav ul li a {
     color: #fff; /* 文字色 */
     text-decoration: none; /* 下線を削除 */
+    font-size: 30px;
 }
+
+#home_menue :hover{
+    color: #070619;
+    background: #66656b;
+}
+#program_menue :hover{
+    color: #070619;
+    background: #66656b;
+}
+
 .header_icon{
 
-    width: 20px;   
+    width: 30px;   
     height: auto;
     margin-right: 10px; /* パディング */
 }
-
 /* メインコンテンツ */
 main {
     padding: 20px; /* パディング */
@@ -57,7 +70,7 @@ main {
 
 /* セクションのスタイル */
 section {
-    background: #dfe0f7; /* 背景色 */
+    background: #e7e7ea; /* 背景色 */
     padding: 15px; /* パディング */
     border-radius: 5px; /* 角の丸み */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* シャドウ */
@@ -92,7 +105,7 @@ button:hover {
 }
 #index_link{position: absolute;
     right: 0; /* 右側まで広げる */
-    padding: 10px 10px; 
+    padding: 10px 10px;
     display: none;
     z-index: 999;
     background-color: #cbc8fe5d;
@@ -101,11 +114,16 @@ button:hover {
     right: 0; /* 右側まで広げる */
     color: #000;
 }
+.index_moji:hover{
+    background: #131317;
+    color:#ffffff;
+}
 .program_img {
     width: 300px;   /* 幅を300pxに設定 */
     height: auto;   /* 高さを自動調整 */
 }
 .home_p{
+    
     color: #fff; /* 文字色 */
     font-size: 30px;
     background: #012142; 
@@ -117,6 +135,12 @@ button:hover {
     background: #012142; 
     scroll-margin: 130px;
 }
+html {
+    scroll-behavior: smooth;
+}
+#setumei_py:hover{
+    transform: scale(1.1); 
+}
 #setumei_py{
     background-color: #bae4fa;
 }
@@ -126,12 +150,17 @@ button:hover {
 #setumei_c{
     background-color: #ebd8fc;
 }
+#setumei_c:hover{
+    transform: scale(1.1); 
+}
 .setumei{
     border: solid 1px #454545;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* シャドウ */
     border-radius: 5px; /* 角の丸み */
     font-size: 15px;
     padding: 10px 10px; /* パディング */
+    transition: transform 0.3s ease; /* スムーズな拡大効果 */
+    z-index: 0;
 
 }
 .grid-container {
@@ -148,18 +177,37 @@ button:hover {
 #setumei_hcj{
     background-color: #f3f7ca;
 }
+#setumei_hcj:hover{
+    transform: scale(1.1); 
+}
 #setumei_ard{
     background-color: #caf7ed;
+}
+#setumei_ard:hover{
+    transform: scale(1.1); 
 }
 #setumei_Scratch{
     background-color: #f7e9ca;
 }
+#setumei_Scratch:hover{
+    transform: scale(1.1); 
+}
 #setumei_git{
     background-color: #ffffff;
+}
+#setumei_git:hover{
+    transform: scale(1.1); 
 }
 #setumei_makecode{
     background-color: #d8fcbd;
 }
+#setumei_makecode:hover{
+    transform: scale(1.1); 
+}
+
 #setumei_tool{
     background-color: #999a99;
+}
+#setumei_tool:hover{
+    transform: scale(1.1); 
 }

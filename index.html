@@ -12,20 +12,22 @@
         <h1>ポートフォリオ</h1>
         <nav>
             <ul>
-                <li><a href="index.html"><img class="header_icon" src="image\home.png">ホーム</a></li>
-                <li><a href="program.html"><img class="header_icon" src="image\pasokon.png">作成したプログラム</a></li>
-                <!-- <li><a href="shumi.html"><img class="header_icon" src="image\sogankyo.png">趣味</a></li> -->
+                <li id="home_menue"><a class="menue_moji" href="index.html"><img class="header_icon" src="image\home.png">ホーム</a></li>
+                <li id="program_menue" ><a class="menue_moji" href="program.html"><img class="header_icon" src="image\pasokon.png">作成したプログラム</a></li>
+                <!-- <li><a href="_mshumi.html"><img class="header_icon" src="image\sogankyo.png">趣味</a></li> -->
             </ul>
         </nav>
         <div>
         <button id="ind_index">index</button><br>
-        <nav id="index_link">
+        <div id="index_link">
+        <nav>
             <ul>
                 <li><a href="#jikoshokai"><span class="index_moji">自己紹介</span></a></li><br>
                 <li><a href="#uselanguage"><span class="index_moji">使えるプログラミング言語</span></a></li><br>
                 <li><a href="#usetool"><span class="index_moji">使えるツール</span></a></li>
             </ul>
         </nav>
+    </div>
     </div>
     </header>
 
@@ -39,11 +41,13 @@
             <p id="uselanguage" class="home_p">使えるプログラミング言語</p>
             <div class="grid-container">
                 <div id="setumei_py" class="setumei">
+                <div >
                 <img class="icon_logo"src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original-wordmark.svg" />
             <span class="setumei_name">python</span><br>
             部活動でRaspbery Piを動かすために使用しています<br>
-            基本的な内容ならある程度できます<br>
+            基本的な内容が程度できます<br>
             opencvやpygameなどのライブラリを主に使用しています</div>
+        </div>
             <div id="setumei_c" class="setumei">
             <img class="icon_logo" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-plain.svg" />
             <span class="setumei_name">C言語</span>
